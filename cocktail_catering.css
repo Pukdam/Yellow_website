@@ -30,12 +30,13 @@ p {
 
 .Beskrivelse {
   display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
 }
 
 .cocktail_catering {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .cocktail_catering img {
