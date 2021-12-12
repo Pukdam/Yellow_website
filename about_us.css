@@ -4,6 +4,52 @@
   box-sizing: border-box;
 }
 
+h2 {
+  font-size: 26px;
+  font-family: "Rozha One", serif;
+}
+
+h3 {
+  font-weight: 800;
+  font-style: italic;
+  font-family: "poppins";
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "poppins";
+  font-size: 10px;
+  margin-bottom: 30px;
+}
+
+.about_yellow {
+  margin: 15px;
+}
+
+.events {
+  margin: 15px;
+}
+
+#reserve_button {
+  margin-bottom: 20px;
+}
+
+#event_billede img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.about_yellow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+/* Header */
+
 header {
   background: #565a42;
   padding: 2rem;
