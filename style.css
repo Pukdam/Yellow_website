@@ -217,4 +217,5 @@ header ul {
 
 body {
   background-color: #f3eed9;
+  overflow-x: hidden;
 }

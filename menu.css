@@ -5,3 +5,53 @@
 
   box-sizing: border-box;
 }
+
+#menu_buttons {
+  display: block;
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#food_button {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background-color: #f2c85e;
+  font-family: "poppins";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 19px;
+}
+
+#drinks_button {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: #f2c85e;
+  font-family: "poppins";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 19px;
+}
+
+#wine_button {
+  grid-row: 3/3;
+  grid-column: 2/3;
+  background-color: #f2c85e;
+  font-family: "poppins";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 19px;
+}
+
+#menu_billede_section {
+  display: grid;
+  justify-content: center;
+}
+
+#menu_billede {
+  width: 100%;
+  height: 90%;
+}
