@@ -10,7 +10,9 @@
   display: grid;
   grid-template-rows: 100px 100px 100px;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 10px;
+  row-gap: 5px;
+  margin-top: 70px;
+  margin-bottom: 10px;
 }
 
 #food_button {
@@ -22,6 +24,7 @@
   font-style: italic;
   font-size: 19px;
   border: none;
+  height: 50px;
 }
 
 #drinks_button {
@@ -33,6 +36,7 @@
   font-style: italic;
   font-size: 19px;
   border: none;
+  height: 50px;
 }
 
 #wine_button {
@@ -44,6 +48,7 @@
   font-style: italic;
   font-size: 19px;
   border: none;
+  height: 50px;
 }
 
 #menu_billede_section {
@@ -62,7 +67,6 @@
     grid-template-rows: 60px 60px 60px;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 70px;
-    aspect-ratio: 16/9;
     margin-right: 50px;
     margin-left: 50px;
   }
@@ -105,10 +109,16 @@
     justify-content: center;
     margin-left: 60px;
     margin-right: 60px;
+    margin-bottom: 50px;
   }
 
   #menu_billede {
     width: 100%;
     height: 100%;
+  }
+
+  #menu_buttons :hover {
+    background-color: #565a42;
+    color: #f3eed9;
   }
 }
