@@ -13,42 +13,49 @@
   row-gap: 5px;
   margin-top: 70px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
-#food_button {
+a.food_button {
   grid-row: 1/2;
   grid-column: 2/3;
   background-color: #f2c85e;
+  color: black;
   font-family: "poppins";
   font-weight: bold;
   font-style: italic;
   font-size: 19px;
   border: none;
   height: 50px;
+  padding-top: 10px;
 }
 
-#drinks_button {
+a.drinks_button {
   grid-row: 2/3;
   grid-column: 2/3;
   background-color: #f2c85e;
+  color: black;
   font-family: "poppins";
   font-weight: bold;
   font-style: italic;
   font-size: 19px;
   border: none;
   height: 50px;
+  padding-top: 10px;
 }
 
-#wine_button {
+a.wine_button {
   grid-row: 3/3;
   grid-column: 2/3;
   background-color: #f2c85e;
+  color: black;
   font-family: "poppins";
   font-weight: bold;
   font-style: italic;
   font-size: 19px;
   border: none;
   height: 50px;
+  padding-top: 10px;
 }
 
 #menu_billede_section {
@@ -60,6 +67,8 @@
   width: 100%;
   height: 90%;
 }
+
+/*Desktop*/
 @media (min-width: 600px) {
   #menu_buttons {
     display: block;
@@ -69,39 +78,46 @@
     column-gap: 70px;
     margin-right: 50px;
     margin-left: 50px;
+    text-align: center;
   }
 
-  #food_button {
+  a.food_button {
     grid-row: 2/2;
     grid-column: 1/1;
     background-color: #f2c85e;
+    color: black;
     font-family: "poppins";
     font-weight: bold;
     font-style: italic;
     font-size: 19px;
     border: none;
+    padding-top: 10px;
   }
 
-  #drinks_button {
+  a.drinks_button {
     grid-row: 2/2;
     grid-column: 2/2;
     background-color: #f2c85e;
+    color: black;
     font-family: "poppins";
     font-weight: bold;
     font-style: italic;
     font-size: 19px;
     border: none;
+    padding-top: 10px;
   }
 
-  #wine_button {
+  a.wine_button {
     grid-row: 2/2;
     grid-column: 3/3;
     background-color: #f2c85e;
+    color: black;
     font-family: "poppins";
     font-weight: bold;
     font-style: italic;
     font-size: 19px;
     border: none;
+    padding-top: 10px;
   }
 
   #menu_billede_section {
