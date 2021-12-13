@@ -7,8 +7,9 @@
 /* headlines og p */
 
 section h2 {
-  font-size: 26px;
+  font-size: 2.1rem;
   font-family: "Rozha One", serif;
+  margin-bottom: 5px;
 }
 
 section h3 {
@@ -16,12 +17,14 @@ section h3 {
   font-style: italic;
   font-family: "poppins";
   margin-bottom: 20px;
+  font-size: 1.2rem;
 }
 
 section p {
   font-family: "poppins";
-  font-size: 10px;
+  font-size: 0.7rem;
   margin-bottom: 30px;
+  line-height: 1.2rem;
 }
 
 /* grid og margin */
@@ -35,6 +38,16 @@ section p {
 
 #reserve_button {
   margin-bottom: 20px;
+  width: 54%;
+  height: auto;
+  border-color: #f2c85e;
+  background-color: #f2c85e;
+  font-family: "poppins";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: none;
 }
 
 /* billeder */
@@ -127,4 +140,25 @@ header ul {
   padding: 10px 15px;
   border: none;
   background: transparent;
+}
+
+@media (min-width: 600px) {
+  .about_yellow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-right: 50px;
+    margin: 60px;
+  }
+
+  .events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-left: 50px;
+    margin: 60px;
+  }
+  #event_billede {
+    order: 2;
+  }
 }

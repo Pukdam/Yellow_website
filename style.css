@@ -227,3 +227,28 @@ body {
   background-color: #f3eed9;
   overflow-x: hidden;
 }
+
+@media (min-width: 600px) {
+  #footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+    width: 100%;
+    background-color: #b8d6c7;
+  }
+
+  #oh {
+    grid-column: 1/1;
+    margin-right: 50px;
+    margin-left: 120px;
+  }
+
+  #cu {
+    grid-column: 2/2;
+    margin-left: 90px;
+  }
+  #lo {
+    grid-column: 3/3;
+  }
+}
