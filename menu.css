@@ -24,6 +24,7 @@
   font-weight: bold;
   font-style: italic;
   font-size: 19px;
+  border: none;
 }
 
 #drinks_button {
@@ -34,6 +35,7 @@
   font-weight: bold;
   font-style: italic;
   font-size: 19px;
+  border: none;
 }
 
 #wine_button {
@@ -44,6 +46,7 @@
   font-weight: bold;
   font-style: italic;
   font-size: 19px;
+  border: none;
 }
 
 #menu_billede_section {
