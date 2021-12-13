@@ -9,7 +9,7 @@
 @media (max-width: 600px) {
   #reservation_buttons {
     display: grid;
-    grid-template-rows: 300px 50px 150px 220px;
+    grid-template-rows: 300px 50px 180px 220px;
     grid-template-columns: 100px 250px 100px;
     row-gap: 10px;
     background-image: url("billeder.yellow/snacks4.jpg");
@@ -26,13 +26,16 @@
     font-size: 17px;
     border-radius: 10px;
     border-color: #f2c85e;
-    opacity: 98%;
+    opacity: 100%;
   }
 
   #reservation_h4 {
     grid-row: 3/3;
     grid-column: 2/3;
+    font-size: 0.84rem;
     color: #f2c85e;
     text-align: center;
+    font-style: italic;
+    font-family: "poppins";
   }
 }
