@@ -6,24 +6,33 @@
   box-sizing: border-box;
 }
 
-#reservation_buttons {
-  display: grid;
-  grid-template-rows: 300px 50px 150px 220px;
-  grid-template-columns: 100px 250px 100px;
-  row-gap: 10px;
-  background-image: url("billeder.yellow/snacks4.jpg");
-  background-size: cover;
-}
+@media (max-width: 600px) {
+  #reservation_buttons {
+    display: grid;
+    grid-template-rows: 300px 50px 150px 220px;
+    grid-template-columns: 100px 250px 100px;
+    row-gap: 10px;
+    background-image: url("billeder.yellow/snacks4.jpg");
+    background-size: cover;
+  }
 
-#reservation_button {
-  grid-row: 2/2;
-  grid-column: 2/3;
-  background-color: #f2c85e;
-  font-family: "poppins";
-  font-weight: bold;
-  font-style: italic;
-  font-size: 17px;
-  border-radius: 10px;
-  border-color: #f2c85e;
-  opacity: 98%;
+  #reservation_button {
+    grid-row: 2/2;
+    grid-column: 2/3;
+    background-color: #f2c85e;
+    font-family: "poppins";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+    border-radius: 10px;
+    border-color: #f2c85e;
+    opacity: 98%;
+  }
+
+  #reservation_h4 {
+    grid-row: 3/3;
+    grid-column: 2/3;
+    color: #f2c85e;
+    text-align: center;
+  }
 }
