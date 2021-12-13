@@ -18,20 +18,14 @@
 #reservation_button {
   grid-row: 2/2;
   grid-column: 2/3;
-  background-color: transparent;
-  color: #f2c85e;
+  background-color: #f2c85e;
+  color: black;
   font-family: "poppins";
   font-weight: bold;
   font-style: italic;
   font-size: 17px;
   border-color: #f2c85e;
-  border-style: solid;
-}
-
-#reservation_buttons :hover {
-  background-color: #f2c85e;
-  color: black;
-  border-color: #f2c85e;
+  border-radius: 5px;
 }
 
 #reservation_h4 {
