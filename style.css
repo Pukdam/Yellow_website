@@ -263,6 +263,13 @@ body {
     margin-right: 26rem;
   }
 
+  #footerimg {
+    display: grid;
+    grid-template-columns: 2fr 2fr 16fr;
+    gap: 0px;
+    line-height: 5rem;
+  }
+
   /* navigation */
 
   .openbtn {
