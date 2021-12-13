@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reservations.css">
+    <link rel="stylesheet" href="reservations.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rozha+One&display=swap"
       rel="stylesheet"
     />
-    <title>Reservations</title>
+    <title>Book a table</title>
   </head>
   <header>
     <div id="mySidepanel" class="sidepanel">
@@ -33,9 +33,15 @@
       <img src="UI_elementer/Yellow_logo_color_pos_RGB.png" alt="" />
     </div>
   </header>
+
   <body>
     <section id="reservation_buttons">
-      <button id="reservation_button">BOOK A TABLE ONLINE</button>
+      <button
+        id="reservation_button"
+        onclick="window.location.href='https://book.dinnerbooking.com/dk/da-DK/book/index/2154/3?fbclid=IwAR2MGLoLcaxROJ6b-6YmkfjTmZIDGpBhzeCaH1yUEjNhN1KQNeS_AwfaJRI';"
+      >
+        BOOK A TABLE ONLINE
+      </button>
       <h4 id="reservation_h4">or e-mail us on bord@yellowkbh.dk</h4>
     </section>
     <footer>
@@ -61,13 +67,19 @@
         </ul>
         <div id="footerimg">
           <div class="img1">
-            <img src="ikon_billeder/IG_icon.svg" alt="IG" />
+            <a href="https://www.instagram.com/yellowkbh/"
+              ><img src="ikon_billeder/IG_icon.svg" alt="IG"
+            /></a>
           </div>
           <div class="img2">
-            <img src="ikon_billeder/FB_icon.svg" alt="FB" />
+            <a href="https://www.facebook.com/Yellowkbh/"
+              ><img src="ikon_billeder/FB_icon.svg" alt="FB"
+            /></a>
           </div>
           <div class="img3">
-            <img src="ikon_billeder/mail_icon.svg" alt="mail" />
+            <a href="mailto:bord@yellowkbh.dk"
+              ><img src="ikon_billeder/mail_icon.svg" alt="mail"
+            /></a>
           </div>
         </div>
       </div>
@@ -79,9 +91,13 @@
         </ul>
         <div id="lo2">
           <ul>
-            <li> <li>
-            Find us<span class="time"><img src="ikon_billeder/point_icon.svg" alt="location">
-          </li></li></span>
+            <li>
+              Find us<span class="time"
+                ><a
+                  href="https://www.google.dk/maps/place/Yellow/@55.6902088,12.553824,19z/data=!3m1!4b1!4m5!3m4!1s0x465253548daad7ad:0x4c7b5d13824d8a24!8m2!3d55.690208!4d12.5543712"
+                  ><img src="ikon_billeder/point_icon.svg" alt="location" /></a
+              ></span>
+            </li>
           </ul>
         </div>
       </div>
