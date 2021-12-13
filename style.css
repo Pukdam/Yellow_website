@@ -8,9 +8,11 @@
 
 header {
   background: #565a42;
-  padding: 2rem;
+  padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: sticky;
+  top: 0;
 }
 
 a {
@@ -74,6 +76,10 @@ header ul {
   padding: 10px 15px;
   border: none;
   background: transparent;
+}
+
+#nav_desktop {
+  display: none;
 }
 
 #Menus_button {
@@ -224,6 +230,7 @@ body {
 }
 
 @media (min-width: 600px) {
+  /* footer */
   #footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -255,12 +262,16 @@ body {
     font-size: 0.9rem;
     margin-right: 19rem;
   }
+
+  /* navigation */
 }
 
-#splashbillede_section img {
+#splashbillede_section {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  background-image: url(billeder.yellow/splashbillede.png);
   background-size: cover;
+  background-position: 1% 1%;
 }
 
 #Menu_section img {
