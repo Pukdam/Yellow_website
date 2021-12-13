@@ -1,9 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 /* header/nav start */
 
 * {
@@ -84,10 +78,11 @@ header ul {
 
 #Menus_button {
   background-color: #f2c85e;
-  font-family: "poppins";
-  font-weight: bold;
-  font-style: italic;
-  font-size: 19px;
+  font-family: "Rozha One", serif;
+  font-size: 2.1rem;
+  width: 40%;
+  border-style: none;
+  margin-left: 15px;
 }
 
 /* footer start */
@@ -251,4 +246,70 @@ body {
   #lo {
     grid-column: 3/3;
   }
+
+  #lo2 ul {
+    list-style: none;
+    line-height: 3rem;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-right: 19rem;
+  }
+}
+
+#splashbillede_section img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+#Menu_section img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+#video_section h2 {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-family: "Rozha One", serif;
+  font-size: 2.1rem;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#video_section p {
+  font-family: "poppins";
+  font-size: 0.7rem;
+  margin-bottom: 30px;
+  line-height: 1.2rem;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#instagram_section h3 {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+#Yellow_button {
+  background-color: #f2c85e;
+  width: 40%;
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  border-style: none;
+}
+
+#bookatable_button {
+  background-color: #f2c85e;
+  width: 40%;
+  font-family: "Rozha One", serif;
+  font-size: 1rem;
+  border-style: none;
 }
