@@ -38,6 +38,13 @@ section p {
 
 #reserve_button {
   margin-bottom: 20px;
+  border-color: #f2c85e;
+  background-color: #f2c85e;
+  font-family: "poppins";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  border-radius: 5px;
 }
 
 /* billeder */
