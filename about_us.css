@@ -23,7 +23,7 @@ section h3 {
 section p {
   font-family: "poppins";
   font-size: 0.7rem;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   line-height: 1.2rem;
 }
 
@@ -39,15 +39,17 @@ section p {
 #reserve_button {
   margin-bottom: 20px;
   width: 54%;
-  height: auto;
+  margin: 2px 1px;
+  padding: 10px 10px;
+  text-align: center;
   border-color: #f2c85e;
   background-color: #f2c85e;
   font-family: "poppins";
   font-weight: bold;
   font-style: italic;
-  font-size: 20px;
-  border-radius: 5px;
-  border-style: none;
+  font-size: 15px;
+  border-style: solid;
+  text-transform: uppercase;
 }
 
 /* billeder */
@@ -70,79 +72,8 @@ section p {
   margin-bottom: 30px;
 }
 
-/* Header */
-
-header {
-  background: #565a42;
-  padding: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-a {
-  text-decoration: none;
-  color: #fbe91d;
-}
-
-header ul {
-  list-style: none;
-  padding: 0;
-}
-
-.logo {
-  margin-right: 110px;
-}
-
-.logo img {
-  height: 61px;
-  width: 155px;
-}
-
-.sidepanel {
-  height: 350px;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #f3eed9;
-  overflow-x: hidden;
-  padding-top: 100px;
-  transition: 0.5s;
-}
-
-.sidepanel a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  color: #565a42;
-  display: block;
-  transition: 0.3s;
-  font-family: "Poppins";
-  font-style: italic;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.2rem;
-}
-
-.sidepanel a:hover {
-  color: #f2c85e;
-}
-
-.sidepanel .closebtn {
-  position: absolute;
-  top: 0;
-  margin-top: 30px;
-}
-
-.openbtn {
-  cursor: pointer;
-  place-self: start start;
-  padding: 10px 15px;
-  border: none;
-  background: transparent;
-}
-
 @media (min-width: 600px) {
+  /* grid */
   .about_yellow {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -160,5 +91,18 @@ header ul {
   }
   #event_billede {
     order: 2;
+  }
+
+  /* tekst */
+  section p {
+    font-family: "poppins";
+    font-size: 0.9rem;
+    margin-bottom: 130px;
+    line-height: 1.2rem;
+  }
+
+  #reserve_button:hover {
+    background-color: #565a42;
+    border-color: #565a42;
   }
 }
