@@ -38,6 +38,8 @@ section p {
 
 #reserve_button {
   margin-bottom: 20px;
+  width: 54%;
+  height: auto;
   border-color: #f2c85e;
   background-color: #f2c85e;
   font-family: "poppins";
