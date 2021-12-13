@@ -172,4 +172,9 @@ header ul {
     margin-bottom: 130px;
     line-height: 1.2rem;
   }
+
+  #reserve_button:hover {
+    background-color: #565a42;
+    border-color: #565a42;
+  }
 }
