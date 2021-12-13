@@ -131,3 +131,24 @@ header ul {
   border: none;
   background: transparent;
 }
+
+@media (min-width: 600px) {
+  .about_yellow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-right: 50px;
+    margin: 60px;
+  }
+
+  .events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-left: 50px;
+    margin: 60px;
+  }
+  #event_billede {
+    order: 2;
+  }
+}
