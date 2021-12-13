@@ -91,134 +91,134 @@ header ul {
 }
 
 /* footer start */
-@media (max-width: 600px) {
-  footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #b8d6c7;
-    gap: 10px;
-    justify-content: space-between;
-    width: 120%;
-  }
 
-  #oh {
-    grid-column: 1/3;
-    margin: 30px;
-  }
-
-  #oh ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    line-height: 2.5rem;
-  }
-
-  #oh ul li:nth-child(2) {
-    font-size: 0.9rem;
-    font-style: italic;
-    font-family: "poppins";
-  }
-
-  #oh ul li:nth-child(4) {
-    font-size: 0.9rem;
-    font-style: italic;
-    font-family: "poppins";
-  }
-
-  #oh ul li:nth-child(2) .time {
-    margin-left: 4rem;
-  }
-
-  #oh h3 {
-    font-family: "poppins";
-    font-style: italic;
-    font-weight: 800;
-    line-height: 4rem;
-  }
-
-  #oh ul li:nth-child(1) {
-    font-family: "poppins";
-    font-weight: 500;
-  }
-
-  #oh ul li:nth-child(3) {
-    font-family: "poppins";
-    font-weight: 500;
-  }
-
-  #oh2 ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    line-height: 2.5rem;
-  }
-
-  #oh2 ul {
-    font-family: "poppins";
-    font-weight: 500;
-    line-height: 7rem;
-  }
-
-  .time {
-    float: right;
-  }
-
-  #cu {
-    grid-column: 1/3;
-    margin: 30px;
-    display: inline-block;
-  }
-
-  #cu h3 {
-    font-family: "poppins";
-    font-style: italic;
-    font-weight: 800;
-    line-height: 4rem;
-  }
-
-  #footerimg {
-    display: grid;
-    grid-template-columns: 2fr 2fr 7fr;
-    gap: 0px;
-    line-height: 5rem;
-  }
-
-  #cu ul {
-    list-style: none;
-    line-height: 2.5rem;
-    font-family: "poppins";
-    font-weight: 500;
-    font-size: 0.9rem;
-  }
-
-  #lo {
-    grid-column: 1/3;
-    margin: 30px;
-  }
-
-  #lo h3 {
-    font-family: "poppins";
-    font-style: italic;
-    font-weight: 800;
-    line-height: 4rem;
-  }
-  #lo ul {
-    list-style: none;
-    line-height: 2.2rem;
-    font-family: "poppins";
-    font-weight: 500;
-    font-size: 0.9rem;
-  }
-
-  #lo2 ul {
-    list-style: none;
-    line-height: 3rem;
-    font-family: "poppins";
-    font-weight: 500;
-    font-size: 0.9rem;
-    margin-right: 13rem;
-  }
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #b8d6c7;
+  gap: 10px;
+  justify-content: space-between;
+  width: 120%;
 }
+
+#oh {
+  grid-column: 1/3;
+  margin: 30px;
+}
+
+#oh ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  line-height: 2.5rem;
+}
+
+#oh ul li:nth-child(2) {
+  font-size: 0.9rem;
+  font-style: italic;
+  font-family: "poppins";
+}
+
+#oh ul li:nth-child(4) {
+  font-size: 0.9rem;
+  font-style: italic;
+  font-family: "poppins";
+}
+
+#oh ul li:nth-child(2) .time {
+  margin-left: 4rem;
+}
+
+#oh h3 {
+  font-family: "poppins";
+  font-style: italic;
+  font-weight: 800;
+  line-height: 4rem;
+}
+
+#oh ul li:nth-child(1) {
+  font-family: "poppins";
+  font-weight: 500;
+}
+
+#oh ul li:nth-child(3) {
+  font-family: "poppins";
+  font-weight: 500;
+}
+
+#oh2 ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  line-height: 2.5rem;
+}
+
+#oh2 ul {
+  font-family: "poppins";
+  font-weight: 500;
+  line-height: 7rem;
+}
+
+.time {
+  float: right;
+}
+
+#cu {
+  grid-column: 1/3;
+  margin: 30px;
+  display: inline-block;
+}
+
+#cu h3 {
+  font-family: "poppins";
+  font-style: italic;
+  font-weight: 800;
+  line-height: 4rem;
+}
+
+#footerimg {
+  display: grid;
+  grid-template-columns: 2fr 2fr 7fr;
+  gap: 0px;
+  line-height: 5rem;
+}
+
+#cu ul {
+  list-style: none;
+  line-height: 2.5rem;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#lo {
+  grid-column: 1/3;
+  margin: 30px;
+}
+
+#lo h3 {
+  font-family: "poppins";
+  font-style: italic;
+  font-weight: 800;
+  line-height: 4rem;
+}
+#lo ul {
+  list-style: none;
+  line-height: 2.2rem;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#lo2 ul {
+  list-style: none;
+  line-height: 3rem;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-right: 13rem;
+}
+
 /* footer done*/
 
 /* Baggrundsfarve */
