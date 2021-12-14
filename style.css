@@ -561,3 +561,15 @@ body {
     padding: 20px;
   }
 }
+
+#pilopforside_knap {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 209%;
+  left: 88%;
+  background-image: url(SVG/pilop.svg);
+  background-repeat: no-repeat;
+  aspect-ratio: 1/1;
+  z-index: 2;
+}
