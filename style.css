@@ -408,6 +408,7 @@ body {
     background-size: cover;
     background-image: url(billeder.yellow/splashbillede.png);
     margin: 0px;
+    background-position: 50% 50%;
   }
 
   #bookatable_button1 {
