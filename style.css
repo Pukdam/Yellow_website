@@ -260,7 +260,14 @@ body {
     font-family: "poppins";
     font-weight: 500;
     font-size: 0.9rem;
-    margin-right: 19rem;
+    margin-right: 26rem;
+  }
+
+  #footerimg {
+    display: grid;
+    grid-template-columns: 2fr 2fr 16fr;
+    gap: 0px;
+    line-height: 5rem;
   }
 
   /* navigation */
