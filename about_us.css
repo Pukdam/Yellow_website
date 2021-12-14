@@ -162,7 +162,7 @@ section p {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   /* grid */
   .about_yellow {
     display: grid;
@@ -197,13 +197,14 @@ section p {
     font-family: "poppins";
     margin-bottom: 40px;
     font-size: 1rem;
-    padding-right: 80px;
+    padding-right: 0px;
   }
   section p {
     font-family: "poppins";
     font-size: 0.9rem;
     margin-bottom: 130px;
     line-height: 1.2rem;
+    padding-right: 0px;
   }
 
   #reserve_button:hover {
