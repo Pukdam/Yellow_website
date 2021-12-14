@@ -290,6 +290,12 @@ section h4 {
     font-size: 0.9rem;
   }
 
+  .email a {
+    color: black;
+    text-decoration: underline;
+    font-size: 0.9rem;
+  }
+
   .tohearmore {
     font-family: "Poppins";
     font-style: italic;
