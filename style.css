@@ -99,7 +99,7 @@ footer {
   background-color: #b8d6c7;
   gap: 10px;
   justify-content: space-between;
-  width: 120%;
+  width: 100%;
 }
 
 #oh {
@@ -162,6 +162,7 @@ footer {
 
 .time {
   float: right;
+  padding-right: 2rem;
 }
 
 #cu {
@@ -217,7 +218,7 @@ footer {
   font-family: "poppins";
   font-weight: 500;
   font-size: 0.9rem;
-  margin-right: 15rem;
+  margin-right: 11rem;
 }
 
 /* footer done*/
@@ -308,7 +309,7 @@ body {
     /* margin-left: 90px; */
   }
   #lo {
-    /* grid-column: 4/6; */
+    grid-column: 7/7;
   }
 
   #lo2 ul {
