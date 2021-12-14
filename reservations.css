@@ -39,13 +39,13 @@
   pointer-events: none;
 }
 
-.email {
+.mail {
   font-family: "Poppins";
   font-weight: 700;
   font-size: 0.84rem;
 }
 
-.email a {
+.mail a {
   color: black;
   text-decoration: underline;
   font-size: 0.84rem;
@@ -89,13 +89,13 @@
     pointer-events: none;
   }
 
-  .email {
+  .mail {
     font-family: "Poppins";
     font-weight: 700;
     font-size: 1rem;
   }
 
-  .email a {
+  .mail a {
     color: black;
     text-decoration: underline;
     font-size: 1rem;
