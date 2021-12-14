@@ -341,13 +341,13 @@ body {
   }
 }
 
-/* #splashbillede_section {
+#splashbillede_section {
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: 50% 50%;
-  background-image: url(billeder_website/splash_desktop.png);
-} */
+  /* background-position: 50% 50%; */
+  background-image: url(billeder.yellow/splashbillede.png);
+}
 
 #Menu_section img {
   width: 100%;
