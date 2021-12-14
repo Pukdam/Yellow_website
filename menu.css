@@ -25,10 +25,11 @@ a.food_button {
   font-style: italic;
   font-size: 19px;
   height: 50px;
-  border-color: #f2c85e;
+  border-color: #d3ad4e;
   border-radius: 5px;
   text-align: center;
   padding-top: 10px;
+  border-style: solid;
 }
 
 a.drinks_button {
@@ -41,10 +42,11 @@ a.drinks_button {
   font-style: italic;
   font-size: 19px;
   height: 50px;
-  border-color: #f2c85e;
+  border-color: #d3ad4e;
   border-radius: 5px;
   text-align: center;
   padding-top: 10px;
+  border-style: solid;
 }
 
 a.wine_button {
@@ -57,10 +59,11 @@ a.wine_button {
   font-style: italic;
   font-size: 19px;
   height: 50px;
-  border-color: #f2c85e;
+  border-color: #d3ad4e;
   border-radius: 5px;
   text-align: center;
   padding-top: 10px;
+  border-style: solid;
 }
 
 /*Desktop*/
@@ -86,10 +89,11 @@ a.wine_button {
     font-style: italic;
     font-size: 19px;
     height: 50px;
-    border-color: #f2c85e;
+    border-color: #d3ad4e;
     border-radius: 5px;
     text-align: center;
     padding-top: 10px;
+    border-style: solid;
   }
 
   a.drinks_button {
@@ -102,10 +106,11 @@ a.wine_button {
     font-style: italic;
     font-size: 19px;
     height: 50px;
-    border-color: #f2c85e;
+    border-color: #d3ad4e;
     border-radius: 5px;
     text-align: center;
     padding-top: 10px;
+    border-style: solid;
   }
 
   a.wine_button {
@@ -118,14 +123,16 @@ a.wine_button {
     font-style: italic;
     font-size: 19px;
     height: 50px;
-    border-color: #f2c85e;
+    border-color: #d3ad4e;
     border-radius: 5px;
     text-align: center;
     padding-top: 10px;
+    border-style: solid;
   }
 
   .menu_buttons_and_image :hover {
     background-color: #565a42;
     color: #f3eed9;
+    border-color: #565a42;
   }
 }
