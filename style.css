@@ -1045,7 +1045,7 @@ body {
   }
 
   #oh ul li:nth-child(2) .time {
-    /* margin-left: 4rem; */
+    margin-left: 0rem;
   }
 
   .time {
@@ -1116,10 +1116,9 @@ body {
 
   #footerimg {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2px;
     line-height: 5rem;
-    padding-right: -20px;
   }
 
   #lo {
