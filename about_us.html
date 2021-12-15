@@ -20,39 +20,40 @@
     <link rel="icon" type="image/png" href="ikon_billeder/yellow_icon.png" />
     <title>About us</title>
   </head>
-  <header>
-    <div id="mySidepanel" class="sidepanel">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        ><img src="UI_elementer/luk_knap.svg" alt=""
-      /></a>
-      <a href="menu.html">Menu</a>
-      <a href="reservations.html">Reservations</a>
-      <a href="about_us.html">About us</a>
 
-      <a href="cocktail_catering.html">Cocktail catering</a>
-    </div>
-    <button class="openbtn" onclick="openNav()">
-      <img src="UI_elementer/menu_knap.svg" alt="menu_knap" />
-    </button>
-    <div class="logo">
-      <a href="index.html"
-        ><img src="UI_elementer/Yellow_logo_color_pos_RGB.png" alt=""
-      /></a>
-    </div>
-
-    <nav id="nav_desktop">
-      <ul>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="reservations.html">Book a table</a></li>
-        <li>
-          <a href="about_us.html">About us</a>
-        </li>
-
-        <li><a href="cocktail_catering.html">Cocktail catering</a></li>
-      </ul>
-    </nav>
-  </header>
   <body>
+    <header>
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          ><img src="UI_elementer/luk_knap.svg" alt=""
+        /></a>
+        <a href="menu.html">Menu</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="about_us.html">About us</a>
+
+        <a href="cocktail_catering.html">Cocktail catering</a>
+      </div>
+      <button class="openbtn" onclick="openNav()">
+        <img src="UI_elementer/menu_knap.svg" alt="menu_knap" />
+      </button>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="UI_elementer/Yellow_logo_color_pos_RGB.png" alt=""
+        /></a>
+      </div>
+
+      <nav id="nav_desktop">
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservations.html">Book a table</a></li>
+          <li>
+            <a href="about_us.html">About us</a>
+          </li>
+
+          <li><a href="cocktail_catering.html">Cocktail catering</a></li>
+        </ul>
+      </nav>
+    </header>
     <section class="about_yellow">
       <div>
         <img src="billeder_website/bar.jpg" alt="cocktails" />
@@ -76,9 +77,12 @@
           On Weekends we turn up the volume and bust a few moves, when some of
           Copenhagens finest DJ’s drop by to spin records.
         </p>
-        <a href="reservations.html"
-          ><button id="reserve_button">Reserve a table now</button></a
+        <button
+          id="reserve_button"
+          onclick="window.location.href='reservations.html'"
         >
+          Reserve a table now
+        </button>
       </div>
     </section>
     <section class="events">
