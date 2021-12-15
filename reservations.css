@@ -107,7 +107,59 @@
   #reservation_buttons {
     display: grid;
     grid-template-rows: 300px 50px 180px 220px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    background-image: url("billeder_website/reserver.JPG");
+    background-position-y: 40%;
+  }
+
+  #reservation_button {
+    grid-row: 2/2;
+    grid-column: 2/3;
+    background-color: #f2c85e;
+    color: black;
+    font-family: "poppins";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+    border-color: #f2c85e;
+    border-radius: 5px;
+  }
+
+  #reservation_button:hover {
+    background-color: #565a42;
+    border-color: #565a42;
+    color: #f3eed9;
+  }
+
+  #reservation_h4 {
+    grid-row: 3/3;
+    grid-column: 2/3;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: "poppins";
+    pointer-events: none;
+  }
+
+  .mail {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .mail a {
+    color: black;
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  #reservation_buttons {
+    display: grid;
+    grid-template-rows: 300px 50px 180px 220px;
+    grid-template-columns: 2fr 1.3fr 2fr;
     background-image: url("billeder_website/reserver.JPG");
     background-position-y: 40%;
   }

@@ -75,12 +75,13 @@ a.wine_button {
     background-image: url("billeder.yellow/madbilledeforside.png");
     background-position-y: 40%;
     column-gap: 50px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 160px;
+    padding-left: 160px;
+    gap: 100px;
   }
 
   a.food_button {
-    grid-row: 3/3;
+    grid-row: 2/3;
     grid-column: 2/2;
     background-color: #f2c85e;
     color: black;
@@ -97,7 +98,7 @@ a.wine_button {
   }
 
   a.drinks_button {
-    grid-row: 3/3;
+    grid-row: 2/3;
     grid-column: 1/1;
     background-color: #f2c85e;
     color: black;
@@ -114,7 +115,7 @@ a.wine_button {
   }
 
   a.wine_button {
-    grid-row: 3/3;
+    grid-row: 2/3;
     grid-column: 3/3;
     background-color: #f2c85e;
     color: black;
