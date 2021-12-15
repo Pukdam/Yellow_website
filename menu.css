@@ -13,6 +13,7 @@
   row-gap: 10px;
   background-image: url("billeder.yellow/madbilledeforside.png");
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 a.food_button {
