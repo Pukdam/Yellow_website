@@ -344,8 +344,8 @@ body {
 
   border-radius: 5px;
   padding: 15px;
-  padding-right: 24px;
-  padding-left: 24px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 #menus_button2:hover {
@@ -416,8 +416,8 @@ video {
 
     border-radius: 5px;
     padding: 15px;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
 
@@ -533,7 +533,6 @@ video {
     grid-template-columns: 2fr 2fr 7fr;
     gap: 2px;
     line-height: 5rem;
-    padding-right: -20px;
   }
 
   #lo {
@@ -649,8 +648,8 @@ video {
 
     border-radius: 5px;
     padding: 20px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 }
 
@@ -766,7 +765,6 @@ video {
     grid-template-columns: 2fr 2fr 7fr;
     gap: 2px;
     line-height: 5rem;
-    padding-right: -20px;
   }
 
   #lo {
@@ -829,8 +827,8 @@ video {
 
     border-radius: 5px;
     padding: 20px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 55px;
+    padding-left: 55px;
   }
 }
 
@@ -947,7 +945,6 @@ video {
     grid-template-columns: 2fr 2fr 7fr;
     gap: 2px;
     line-height: 5rem;
-    padding-right: -20px;
   }
 
   #lo {
@@ -1009,8 +1006,8 @@ video {
 
     border-radius: 5px;
     padding: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 55px;
+    padding-left: 55px;
   }
 
   video {
@@ -1216,8 +1213,8 @@ video {
 
     border-radius: 10px;
     padding: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
   }
   video {
     width: 100%;
