@@ -297,22 +297,26 @@ body {
 #bookatable_button2 {
   background-color: #e07218;
   color: black;
-  font-family: "Rozha One", serif;
+  font-family: "poppins";
   font-weight: bold;
-  /* font-style: italic; */
-  font-size: 0.8rem;
-  border-color: black;
-  border-style: solid;
+  font-style: italic;
+  font-size: 0.75rem;
+  border-color: #e07218;
   border-radius: 5px;
   padding: 15px;
   padding-right: 24px;
   padding-left: 24px;
 }
 
+#bookatable_button2:hover {
+  background-color: #f7d890;
+  border-color: #f7d890;
+}
+
 #menu_section {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 0.8fr 1fr 0.8fr;
+  grid-template-columns: 0.8fr 1.5fr 0.8fr;
   row-gap: 10px;
   background-image: url("billeder.yellow/madbilledeforside.png");
   object-fit: cover;
@@ -332,9 +336,9 @@ body {
 #menus_button2 {
   background-color: #f2c85e;
   color: black;
-  font-family: "Rozha One", serif;
+  font-family: "poppins";
   font-weight: bold;
-  /* font-style: italic; */
+  font-style: italic;
   font-size: 0.8rem;
   border-color: #f2c85e;
 
@@ -342,6 +346,12 @@ body {
   padding: 15px;
   padding-right: 24px;
   padding-left: 24px;
+}
+
+#menus_button2:hover {
+  background-color: #565a42;
+  border-color: #565a42;
+  color: #f3eed9;
 }
 
 @media (min-width: 450px) {
@@ -366,7 +376,7 @@ body {
   #menu_section {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 0.7fr 1fr 0.7fr;
+    grid-template-columns: 0.7fr 1.1fr 0.7fr;
     row-gap: 10px;
     background-image: url("billeder.yellow/madbilledeforside.png");
     object-fit: cover;
@@ -379,9 +389,9 @@ body {
   #menus_button2 {
     background-color: #f2c85e;
     color: black;
-    font-family: "Rozha One", serif;
+    font-family: "poppins";
     font-weight: bold;
-    /* font-style: italic; */
+    font-style: italic;
     font-size: 0.9rem;
     border-color: #f2c85e;
 
@@ -598,11 +608,11 @@ body {
   #bookatable_button2 {
     background-color: #e07218;
     color: black;
-    font-family: "Rozha One", serif;
+    font-family: "poppins";
     font-weight: bold;
+    font-style: italic;
     font-size: 17px;
-    border-color: black;
-    border-style: solid;
+    border-color: #e07218;
     border-radius: 5px;
     padding: 20px;
     padding-right: 30px;
@@ -612,9 +622,9 @@ body {
   #menus_button2 {
     background-color: #f2c85e;
     color: black;
-    font-family: "Rozha One", serif;
+    font-family: "poppins";
     font-weight: bold;
-    /* font-style: italic; */
+    font-style: italic;
     font-size: 1rem;
     border-color: #f2c85e;
 
@@ -777,11 +787,11 @@ body {
   #bookatable_button2 {
     background-color: #e07218;
     color: black;
-    font-family: "Rozha One", serif;
+    font-family: "poppins";
     font-weight: bold;
+    font-style: italic;
     font-size: 1rem;
-    border-color: black;
-    border-style: solid;
+    border-color: #e07218;
     border-radius: 5px;
     padding: 20px;
 
@@ -792,9 +802,9 @@ body {
   #menus_button2 {
     background-color: #f2c85e;
     color: black;
-    font-family: "Rozha One", serif;
+    font-family: "poppins";
     font-weight: bold;
-    /* font-style: italic; */
+    font-style: italic;
     font-size: 1.1rem;
     border-color: #f2c85e;
 
@@ -972,9 +982,9 @@ body {
   #menus_button2 {
     background-color: #f2c85e;
     color: black;
-    font-family: "Rozha One", serif;
+    font-family: "poppins";
     font-weight: bold;
-    /* font-style: italic; */
+    font-style: italic;
     font-size: 1.2rem;
     border-color: #f2c85e;
 
@@ -1172,11 +1182,11 @@ body {
   #bookatable_button2 {
     background-color: #e07218;
     color: black;
-    font-family: "Rozha One", serif;
+    font-family: "poppins";
     font-weight: bold;
+    font-style: italic;
     font-size: 1.2rem;
-    border-color: black;
-    border-style: solid;
+    border-color: #e07218;
 
     border-radius: 10px;
     padding: 20px;

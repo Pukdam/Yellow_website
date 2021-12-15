@@ -52,7 +52,6 @@ section p {
   font-weight: bold;
   font-style: italic;
   font-size: 15px;
-  border-style: solid;
   text-transform: uppercase;
 }
 
@@ -138,8 +137,8 @@ section p {
     font-weight: bold;
     font-style: italic;
     font-size: 15px;
-    border-style: solid;
     text-transform: uppercase;
+    border-radius: 5px;
   }
 
   /* billeder */
@@ -225,7 +224,6 @@ section p {
     font-weight: bold;
     font-style: italic;
     font-size: 15px;
-    border-style: solid;
     text-transform: uppercase;
   }
 
@@ -311,7 +309,6 @@ section p {
     font-weight: bold;
     font-style: italic;
     font-size: 15px;
-    border-style: solid;
     text-transform: uppercase;
   }
 
