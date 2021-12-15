@@ -123,6 +123,7 @@ section p {
   #reserve_button:hover {
     background-color: #565a42;
     border-color: #565a42;
+    color: #f3eed9;
   }
 
   #reserve_button {
