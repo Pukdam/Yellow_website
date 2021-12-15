@@ -354,6 +354,25 @@ body {
   color: #f3eed9;
 }
 
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2%;
+}
+
+#video_section {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-row: 1fr 1fr 1fr;
+}
+
+#video {
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 50px;
+}
+
 @media (min-width: 450px) {
   #splashbillede_section {
     display: grid;
@@ -993,6 +1012,13 @@ body {
     padding-right: 30px;
     padding-left: 30px;
   }
+
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2%;
+  }
 }
 
 /* navigation media 1000 */
@@ -1192,5 +1218,11 @@ body {
     padding: 20px;
     padding-right: 50px;
     padding-left: 50px;
+  }
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2%;
   }
 }
