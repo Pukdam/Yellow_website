@@ -361,16 +361,54 @@ video {
   border-radius: 2%;
 }
 
+#vid_section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#vid_section h2 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+
 #video_section {
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 0.5fr 5fr 0.5fr;
   grid-row: 1fr 1fr 1fr;
 }
 
 #video {
   grid-column: 2;
   grid-row: 1;
-  padding-top: 50px;
+  padding-top: 20px;
+}
+
+#grid_button {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  padding-top: 30px;
+}
+
+#about_button {
+  grid-column: 2/2;
+  justify-content: center;
+  margin-bottom: 50px;
+  border-color: #f2c85e;
+  background-color: #f2c85e;
+  font-family: "poppins";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#about_button:hover {
+  background-color: #565a42;
+  border-color: #565a42;
+  color: #f3eed9;
 }
 
 @media (min-width: 450px) {
@@ -1010,11 +1048,43 @@ video {
     padding-left: 55px;
   }
 
-  video {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 2%;
+  #vid_section h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+  }
+
+  #video_section {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+  }
+
+  #video {
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 20px;
+  }
+
+  #grid_button {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr 2fr;
+    padding-top: 30px;
+  }
+
+  #about_button {
+    grid-column: 2/2;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-color: #f2c85e;
+    background-color: #f2c85e;
+    font-family: "poppins";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px;
   }
 }
 
@@ -1221,5 +1291,11 @@ video {
     height: auto;
     display: block;
     border-radius: 2%;
+  }
+
+  #grid_button {
+    display: grid;
+    grid-template-columns: 2fr 1.1fr 2fr;
+    padding-top: 30px;
   }
 }
