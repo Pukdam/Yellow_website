@@ -75,6 +75,77 @@ a.wine_button {
     background-image: url("billeder.yellow/madbilledeforside.png");
     background-position-y: 40%;
     column-gap: 50px;
+    padding-right: 70px;
+    padding-left: 70px;
+    gap: 80px;
+  }
+
+  a.food_button {
+    grid-row: 2/3;
+    grid-column: 2/2;
+    background-color: #f2c85e;
+    color: black;
+    font-family: "poppins";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 19px;
+    height: 50px;
+    border-color: #d3ad4e;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    border-style: solid;
+  }
+
+  a.drinks_button {
+    grid-row: 2/3;
+    grid-column: 1/1;
+    background-color: #f2c85e;
+    color: black;
+    font-family: "poppins";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 19px;
+    height: 50px;
+    border-color: #d3ad4e;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    border-style: solid;
+  }
+
+  a.wine_button {
+    grid-row: 2/3;
+    grid-column: 3/3;
+    background-color: #f2c85e;
+    color: black;
+    font-family: "poppins";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 19px;
+    height: 50px;
+    border-color: #d3ad4e;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    border-style: solid;
+  }
+
+  .menu_buttons_and_image :hover {
+    background-color: #565a42;
+    color: #f3eed9;
+    border-color: #565a42;
+  }
+}
+
+@media (min-width: 800px) {
+  .menu_buttons_and_image {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url("billeder.yellow/madbilledeforside.png");
+    background-position-y: 40%;
+    column-gap: 50px;
     padding-right: 160px;
     padding-left: 160px;
     gap: 100px;
