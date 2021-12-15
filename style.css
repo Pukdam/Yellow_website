@@ -10,7 +10,7 @@ header {
   background: #565a42;
   padding: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   position: sticky;
   top: 0;
 }
@@ -25,13 +25,10 @@ header ul {
   padding: 0;
 }
 
-.logo {
-  margin-right: 110px;
-}
-
 .logo img {
   height: 61px;
   width: 155px;
+  grid-column: 2;
 }
 
 .sidepanel {
@@ -349,17 +346,6 @@ body {
   padding-left: 24px;
 }
 
-#pilopforside_knap {
-  width: 10%;
-  height: 10%;
-  position: absolute;
-  top: 209%;
-  left: 88%;
-  background-image: url(SVG/pilop.svg);
-  background-repeat: no-repeat;
-  aspect-ratio: 1/1;
-  z-index: 2;
-}
 @media (min-width: 450px) {
   #splashbillede_section {
     display: grid;
